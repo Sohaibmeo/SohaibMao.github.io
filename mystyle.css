@@ -1,0 +1,89 @@
+@media only screen and (max-width:800px) {
+  body { 
+    font-family: "Roboto",sans-serif;
+    
+  }
+  .image1, .chill, .background1 , .background2{
+    display: none;
+  }
+  #slightyellow{
+    background-color: yellow;
+  }
+  img {
+    width: 80%;
+  }
+   .top{
+     width: 100%;
+     overflow: hidden;
+   }
+   .bot{
+     
+     width: 100%;
+     text-align: center;
+   }
+  }
+
+body{
+  position: relative;
+  font-family: "Roboto",sans-serif;
+
+}
+#slightyellow{
+  background-color: rgb(255, 255, 246);
+}
+.background1{
+  position:absolute;
+  right:0;
+  top:0;
+  height: 7%;
+  width: 35%;
+}
+.background2{
+  position: absolute;
+  left:0;
+  top:5%;
+  height: 8%;
+  width: 23%;
+}
+.row{ 
+  margin-top: 2%;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.container{
+  margin-top: 12%;
+  position: relative;
+}
+.bot{
+padding-left: 10%;
+}
+#firsttext{
+color:rgb(6, 6, 61);
+font-size: 4vw;
+font-weight: 400;
+}
+
+#classic{
+  border: none;
+  border-radius: 10px;
+  font-size: 1vw;
+background-color: #f7547f;
+color: white;
+padding: 3%;
+}
+
+.navbar a {
+ 
+  font-size: 25px;
+
+} 
+.icon-bar{
+  background-color: black;
+}
+.nav li a{
+  color:rgb(7, 1, 61);
+}
+
+
