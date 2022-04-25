@@ -109,27 +109,21 @@ color: white;
   }
   .chill{
       position: absolute;
-
+width: 300px;
 text-align: left;
 bottom: 20px;
 right: 20px;
 
-/* position: absolute;
-content: "";
-width: 190px;
-height: 210px;
-border: 8px solid #ff1481;
-z-index: 2; */
   }
-.chill::after{
-  position: absolute;
-content: "";
+.chill2 {
+  bottom: 0px;
+right: 180px;
 width: 190px;
-height: 210px;
-border: 8px solid #ff1481;
-left: -126px;
-top: -54px;
-z-index: -1;
+height: 150px;
+  position: absolute;
+  content: "";
+  border: 8px solid #ff1481;
+  z-index: 2; 
 }
   
   .child .btn{
