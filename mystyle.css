@@ -1,32 +1,11 @@
-@media only screen and (max-width:1200px) {
-  body { 
-    font-family: "Roboto",sans-serif;
-    
-  }
-  .image1, .chill, .background1 , .background2{
-    display: none;
-  }
-  #slightyellow{
-    background-color: yellow;
-  }
-  img {
-    width: 80%;
-  }
-   .top{
-     width: 100%;
-     overflow: hidden;
-   }
-   .bot{
-     
-     width: 100%;
-     text-align: center;
-   }
-  }
+/* @media only screen and (){
+  
+} */
 
 body{
   position: relative;
   font-family: "Roboto",sans-serif;
-
+font-size: 14px;
 }
 #slightyellow{
   background-color: rgb(255, 255, 246);
@@ -61,7 +40,7 @@ padding-left: 10%;
 }
 #firsttext{
 color:rgb(6, 6, 61);
-font-size: 4vw;
+font-size: 60px;
 font-weight: 400;
 }
 
@@ -76,7 +55,7 @@ padding: 3%;
 
 .navbar a {
  
-  font-size: 25px;
+  font-size: 14px;
 
 } 
 .icon-bar{
@@ -85,5 +64,67 @@ padding: 3%;
 .nav li a{
   color:rgb(7, 1, 61);
 }
+.navbar-header {
+  margin-left: 25%;
+}
 
 
+@media only screen and (max-width:1200px) {
+  .navbar-header {
+    margin-left: 20%;
+  }
+  body { 
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    
+  }
+  .navbar a{
+    font-size: 5px;
+  }
+  .image1, .chill, .background1 , .background2{
+    display: none;
+  }
+  #slightyellow{
+    background-color: rgb(231, 231, 172);
+  }
+  img {
+    width: 80%;
+  }
+   .top{
+     width: 100%;
+     overflow: hidden;
+   }
+   .bot{
+     
+     width: 100%;
+     text-align: center;
+   }
+   #firsttext{
+    font-size: 30px;
+    }
+  }
+  @media only screen and (max-width:800px) {
+    .navbar-header {
+      margin-left: 15%;
+    }
+    #firsttext{
+      font-size: 20px;
+      }
+  }
+
+  @media only screen and (max-width:447px) {
+    .navbar-header {
+      margin-left: 15%;
+    }
+    .top{
+      width: 60%;
+      overflow: hidden;
+    }
+    #firsttext{
+      font-size: 10px;
+      }
+     .tester{
+       height: 300px;
+       overflow: hidden;
+     }
+  }
