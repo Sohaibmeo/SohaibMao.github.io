@@ -116,7 +116,9 @@ font-weight: 500;
   height: 30%;
   text-align: center;
 }
-
+.d-flex{
+  width: 100%;
+}
 
 
 .feature p{
