@@ -321,6 +321,12 @@ margin: 4%;
     }
   }
   @media only screen and (max-width:1500px) {
+     .feature p{
+      font-size: 1.5vh;
+    }
+    .feature h1{
+      font-size: 3vh;
+    }
     .parag2{
       font-size: 2.5vh;
 font-family: "Roboto",sans-serif;
