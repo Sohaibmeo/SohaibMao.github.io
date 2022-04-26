@@ -87,6 +87,9 @@ padding: 3%;
 .resize{
  margin-top: -10%;
 }
+.navbar-toggle{
+right: 0;
+}
 .navbar a {
   color: #112e41 !important;
 font-size: 15px;
@@ -579,7 +582,7 @@ margin: 4%;
     }
     @media only screen and (max-width:1000px) {
 
-     
+      
       .second{
         margin-left: 100px;
       }
@@ -641,8 +644,9 @@ margin: 4%;
 
   
     }
-
+  
   @media only screen and (max-width:810px) {
+  
     .trans .small{
       font-size: 12px;
     }
@@ -697,7 +701,22 @@ margin: 4%;
     
   }
 
- 
+  @media only screen and (max-width:740px) {
+    .navbar-toggle{
+      padding-left: 60vw;
+    }
+    }
+    @media only screen and (max-width:680px) {
+      .navbar-toggle{
+        padding-left: 48vw;
+      }
+      }
+      @media only screen and (max-width:610px) {
+        .navbar-toggle{
+          padding-left: 42vw;
+        }
+        }
+       
   @media only screen and (max-width:570px) {
     #secondblue .trans {
       margin-right: 100px;
@@ -775,7 +794,15 @@ margin: 4%;
       width: 80%;
     }
   }
+  @media only screen and (max-width:480px) {
+    .navbar-toggle{
+      padding-left: 36vw;
+    }
+    }
   @media only screen and (max-width:447px) {
+    .navbar-toggle{
+      padding-left: 30vw;
+    }
     .navbar-header {
       margin-left: 15%;
     }
@@ -804,3 +831,8 @@ margin: 4%;
        height: 10px;
      }
   }
+  @media only screen and (max-width:400px) {
+    .navbar-toggle{
+      padding-left: 25vw;
+    }
+    }
