@@ -288,7 +288,9 @@ margin: 4%;
   .navbar-header {
     margin-left: 20%;
   }
-
+.card img{
+    margin-left: 10%;
+    }
  
   body { 
     font-family: "Roboto",sans-serif;
