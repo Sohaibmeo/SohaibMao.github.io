@@ -214,9 +214,19 @@ margin-top: 10%;
 .secondlast h1{
  color:rgb(7, 1, 61);
 }
-
+.back{
+  background-color: #f7f7f7;
+}
+.back:hover{
+  box-shadow: 0px 20px 30px rgba(163, 4, 78, 0.1);
+border: 1px solid transparent;
+  border-top-color: transparent;
+  border-top-style: solid;
+  border-top-width: 1px;
+border-top: 0px solid transparent;
+}
 .secondlast .card1{
-background-color: #f7f7f7;
+
 text-align: left;
 }
 #solidblue h1, #secondblue h1 , .footer h2{
@@ -359,9 +369,17 @@ margin: 4%;
   margin-top: 100px;
   font-size: 30px;
 } 
-.chk:hover  {
- 
-  color: #162b45;
+.chk:hover  .hov{
+  color: #162b45 !important;
+}
+.chk:hover  .bi{
+ background-color: #ff1481;
+}
+.card h1:hover { 
+  color: #ff1481 !important;
+}
+.chk:hover {
+  background-color: white;
 }
 #secondblue{
   padding-bottom: 7%;
@@ -445,7 +463,8 @@ margin: 4%;
 
 
     .card1 h1{
-      font-size: 18px;
+      font-size: 1.2rem;
+      font-weight: 600;
     }
     .chk h1{
       font-size: 22px;
@@ -802,6 +821,7 @@ margin: 4%;
     }
     }
   @media only screen and (max-width:447px) {
+    
     .navbar-toggle{
       padding-left: 30vw;
     }
@@ -830,6 +850,9 @@ margin: 4%;
      }
   }
   @media only screen and (max-width:400px) {
+    .parag , .line1, .line2 , .line3 , .parag2{
+      margin-left: 0;
+          }
     .navbar-toggle{
       padding-left: 25vw;
     }
