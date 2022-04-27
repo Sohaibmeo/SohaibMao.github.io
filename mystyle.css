@@ -826,10 +826,18 @@ margin: 4%;
 
       width: 80%;
     }
-    .card{
+    .card, .card1{
       margin-left: 10%;
     }
   }
+
+    
+    @media only screen and (max-width:506px) {
+   
+      .navbar-toggle{
+        padding-left: 38vw;
+      }
+      }
   @media only screen and (max-width:480px) {
     .navbar-toggle{
       padding-left: 36vw;
@@ -865,10 +873,66 @@ margin: 4%;
      }
   }
   @media only screen and (max-width:400px) {
-    .parag , .line1, .line2 , .line3 , .parag2{
-      margin-left: 0;
-          }
     .navbar-toggle{
       padding-left: 25vw;
     }
     }
+    @media only screen and (max-width:360px) {
+      #secondblue .trans {
+        margin-right: 0px;
+      }
+      .lamp{
+        height: auto;
+        width: 250px;
+        margin-top: 20%;
+        margin-left: -15%;
+      }
+      #first{
+        font-size: 30px;
+      font-weight: 800; 
+      line-height: 40px;
+      }
+      
+      #classic{
+        margin-left: -12%;
+        margin-top: 2%;
+        font-size: 10px;
+      }
+      .navbar-toggle{
+        padding-left: 20vw;
+      }
+      }
+      @media only screen and (max-width:340px) {
+      
+        .navbar-toggle{
+          padding-left: 11vw;
+        }
+        }
+        @media only screen and (max-width:300px) {
+          .lamp{
+            height: auto;
+            width: 200px;
+            margin-top: 20%;
+            margin-left: -15%;
+          }
+          .navbar-toggle{
+            padding-left: 2vw;
+          }
+          }
+          @media only screen and (max-width:300px) {
+          
+            .navbar-toggle{
+              padding-left: 0vw;
+            }
+            }
+            @media only screen and (max-width:250px) {
+              .lamp{
+                height: auto;
+                width: 100px;
+                margin-top: 20%;
+                margin-left: -15%;
+              }
+              .navbar-toggle{
+                padding-left: 0vw;
+              }
+              }
