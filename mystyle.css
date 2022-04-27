@@ -14,6 +14,9 @@ font-size: 14px;
   background-color: rgb(255, 255, 246);
 padding-bottom: 20%;
 }
+#slightyellow .row{
+margin-top: 0;
+}
 .background1{
   position:absolute;
   right:0;
@@ -89,6 +92,9 @@ padding: 3%;
 }
 .resize{
  margin-top: -10%;
+}
+.navbar-brand{
+  margin-right: 300px;
 }
 .navbar-toggle{
 right: 0;
@@ -399,7 +405,9 @@ margin: 4%;
 
   @media only screen and (max-width:1500px) {
 
-   
+    .navbar-brand{
+      margin-right: 150px;
+    }
     .second{
       margin-left: 100px;
     }
@@ -494,7 +502,9 @@ margin: 4%;
 
   @media only screen and (max-width:1200px) {
 
-
+    .navbar-brand{
+      margin-right: 0px;
+    }
     .second{
       margin-left: 100px;
     }
@@ -565,7 +575,7 @@ margin: 4%;
       
     }
     .navbar a{
-      font-size: 6px;
+      font-size: 10px;
     }
     .image1, .chill, .background1 , .background2, .chill2{
       display: none;
@@ -608,7 +618,9 @@ margin: 4%;
       }
     }
     @media only screen and (max-width:1000px) {
-
+.navbar a{
+  padding: 9px 10px !important;
+}
       
       .second{
         margin-left: 100px;
@@ -910,7 +922,7 @@ margin: 4%;
       @media only screen and (max-width:340px) {
       
         .navbar-toggle{
-          padding-left: 10vw;
+          padding-left: 1vw;
         }
         }
         @media only screen and (max-width:300px) {
