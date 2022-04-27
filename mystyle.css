@@ -139,6 +139,9 @@ font-weight: bold;
   margin-bottom: 5%;
 
 }
+#solidblue {
+  margin-left: 0px;
+}
 #solidblue, #secondblue , .footer{ 
   background-color: #162b45;
  height: 100%;
@@ -822,6 +825,9 @@ margin: 4%;
      .parag , .line1, .line2 , .line3 , .parag2{
 
       width: 80%;
+    }
+    .card{
+      margin-left: 10%;
     }
   }
   @media only screen and (max-width:480px) {
